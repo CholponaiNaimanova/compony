@@ -1,0 +1,57 @@
+#header{
+    // padding: 20px;
+    .container{
+        .header{
+            .headerone{
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .header-address{
+                    display: flex;
+                    align-items: center; 
+                    gap: 16px;
+                    a{
+                        font-size: 23px;
+                    }
+                }
+                button{
+                    background: #0082FE;
+                    color: white;
+                    border: none;
+                    border-radius: 10px;
+                    padding: 12px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    outline: none;
+                    cursor: pointer;
+                }
+            }
+            .header-nav {
+                background:#02061D;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                a{
+                    color: white;
+                    padding-left: 20px;
+                    font-weight: 500;
+                }
+            }
+            .image{
+                .image--two{
+                    position: absolute;
+                    top: 190px;
+                    left: 600px;
+                }
+                h1{
+                    position: absolute;
+                    top: 620px;
+                    left: 450px;
+                    color: white;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
